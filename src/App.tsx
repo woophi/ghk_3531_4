@@ -30,7 +30,7 @@ export const App = () => {
         <div className={appSt.grid}>
           <a
             className={appSt.gridItem}
-            href="https://investor.potok.digital/"
+            href="alfabank://webFeature?type=recommendation&url=https%3A%2F%2Finvestor.potok.digital%2F"
             onClick={() => window.gtag('event', 'Alfapotok_3531_4')}
           >
             <div>
@@ -87,7 +87,7 @@ export const App = () => {
 
           <a
             className={appSt.gridItem}
-            href="https://alfa-mobile.alfabank.ru/mobile/goto/dfa"
+            href="alfabank://webFeature?type=recommendation&url=https%3A%2F%2Fdfa.alfabank.ru%2Fretail-investor%2Fwebview%2F%3Fchannel%3Dghk3531"
             onClick={() => window.gtag('event', 'DFA_4')}
           >
             <div>
@@ -103,7 +103,7 @@ export const App = () => {
           </a>
           <a
             className={appSt.gridItem}
-            href="alfabank://investments/catalogue?tab=MUTUALu"
+            href="alfabank://investments/catalogue?tab=MUTUAL"
             onClick={() => window.gtag('event', 'Fonds_4')}
           >
             <div>
