@@ -8,7 +8,6 @@ import aLogo from './assets/a_logo.png';
 import cfa from './assets/cfa.png';
 import du from './assets/du.png';
 import funds from './assets/funds.png';
-import iis from './assets/iis.png';
 import isz from './assets/isz.png';
 import nsz from './assets/nsz.png';
 import potok from './assets/potok.png';
@@ -132,23 +131,6 @@ export const App = () => {
               </Typography.Text>
             </div>
             <img width={48} height={48} src={du} />
-          </a>
-          <a
-            className={appSt.gridItem}
-            style={{ gridColumn: 'span 2' }}
-            href="alfabank://investments/catalogue?tab=IIS"
-            onClick={() => window.gtag('event', 'IIS_4')}
-          >
-            <div>
-              <Typography.Text view="primary-medium" tag="p" defaultMargins={false} weight="medium">
-                ИИС
-              </Typography.Text>
-
-              <Typography.Text view="primary-small" tag="p" defaultMargins={false} color="secondary">
-                Что это такое
-              </Typography.Text>
-            </div>
-            <img width={48} height={48} src={iis} />
           </a>
         </div>
       </div>
